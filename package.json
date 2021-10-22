@@ -1,0 +1,27 @@
+{
+  "name": "cypresswithcucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cypress": "^8.6.0",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerryosorio2/cypressWithCucumber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerryosorio2/cypressWithCucumber/issues"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "homepage": "https://github.com/jerryosorio2/cypressWithCucumber#readme"
+}
