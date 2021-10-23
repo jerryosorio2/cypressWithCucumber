@@ -21,7 +21,8 @@
     "url": "https://github.com/jerryosorio2/cypressWithCucumber/issues"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/mySteps"
   },
   "homepage": "https://github.com/jerryosorio2/cypressWithCucumber#readme"
 }
