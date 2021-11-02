@@ -5,9 +5,9 @@ Given("I go to {string}", (url) => {
 });
 
 When("I search for {string}", (text) => {
-  //cy.visit(url);
+  cy.get('input[name="q"]').type(`${text}{enter}`);
 });
 
 Then("I see {string}", (text) => {
-  //cy.visit(url);
+  cy.xpath(`//h3[contains(text(),"${text}")]`).should("have.text", text);
 });
